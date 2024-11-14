@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_res"
+    android:padding="8dp">
+    <TableLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="16sp" android:layout_margin="3dp" android:id="@+id/id_tv_label" android:text="@string/id_tv_text"/>
+            <TextView android:textSize="16sp" android:layout_margin="3dp" android:id="@+id/id_tv"/>
+        </TableRow>
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/name_tv_label" android:text="@string/name_tv_text"/>
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/name_tv" />
+        </TableRow>
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/fio_tv_label" android:text="@string/full_name_tv_text"/>
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/fio_tv"/>
+        </TableRow>
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/email_tv_label" android:text="@string/email_tv_text"/>
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/email_tv"/>
+        </TableRow>
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/home_phone_tv_label" android:text="@string/home_phone_tv_text"/>
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/home_phone_tv"/>
+        </TableRow>
+
+        <TableRow android:layout_gravity="center">
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/mobile_phone_tv_label" android:text="@string/mobile_phone_tv_text"/>
+            <TextView android:textSize="14sp" android:layout_margin="3dp" android:id="@+id/mobile_phone_tv"/>
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

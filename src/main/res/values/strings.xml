@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lr5</string>
+    <string name="contacts_info_label_text">Данные контактов</string>
+
+    <string name="id_tv_text">ID: </string>
+    <string name="name_tv_text">Имя: </string>
+    <string name="full_name_tv_text">ФИО: </string>
+    <string name="email_tv_text">Email: </string>
+    <string name="home_phone_tv_text">Домашний тел.: </string>
+    <string name="mobile_phone_tv_text">Мобильный тел.: </string>
+</resources>
